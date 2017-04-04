@@ -4,7 +4,6 @@ class pessoa{
     float peso;   
     float altura;
     float imc;
-//pessoa px[] = new pessoa[getQuant_pessoa()];
 
 
 public void setAltura(float x){
@@ -49,13 +48,24 @@ public int getQuant_pessoa(){
  return quant_pessoa;
 }
 
+
+public void setImc(float x){
+    imc=x;
+    
+}
+
+public float getImc(){
+    return imc;
+    
+}
 /*
 public void addPessoa(pessoa x){
- for(int i=0;i<=px.length-1;i++)  
-  if(px[i].equals(null)){
-      px[i]=x;
+ peso ps1= new peso();
+ for(int i=0;i<=quant_pessoa-1;i++)  
+  if(ps1.px[i].equals(null)){
+      ps1.px[i]=x;
       break;
-  px[0]=x;
+  //px[0]=x;
   }  
 }
 */

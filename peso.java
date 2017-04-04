@@ -18,11 +18,15 @@ p1.setPeso(sc.nextFloat());
 System.out.println("altura?");
 p1.setAltura(sc.nextFloat());
 
-pessoa px[] = new pessoa[p1.getQuant_pessoa()];
+
 
 System.out.println("temos "+p1.getQuant_pessoa()+" pessoas na propriedade");
 System.out.println("seu peso é "+p1.getPeso());
 System.out.println("sua altura de "+p1.getAltura());
+
+pessoa px[] = new pessoa[p1.getQuant_pessoa()];
+px[0]=p1;
+System.out.println("\n\n"+px[0].getAltura());
 
 
 

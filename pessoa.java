@@ -4,6 +4,12 @@ class pessoa{
     float peso;   
     float altura;
     float imc;
+//pessoa px[] = new pessoa[quant_pessoa];
+
+
+
+
+
 
 
 public void setAltura(float x){
@@ -74,9 +80,14 @@ public void addPessoa(pessoa x){
 /*
 void imp(){
     //for(int i=0;i<=px.length-1;i++)  
-    System.out.println(px[0].getAltura());
+   peso ps = new peso();
+   for(int i=0;i<=quant_pessoa-1;)
+   System.out.println(ps1.px[i].getAltura());
 }
 */
 
+public float Icm(float peso ,float altura){
+   return imc=peso/(altura*altura);
+    }
 
 }

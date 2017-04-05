@@ -31,7 +31,7 @@ System.out.println("\n\n"+px[0].getPeso());
 System.out.println("\n\n"+px[0].getAltura());
 System.out.println("\n\n"+px[0].getImc());
 
-
+//ammanda
 
 }
 }

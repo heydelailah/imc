@@ -34,11 +34,12 @@ else{
     System.out.println("seu icm é "+p1.getImc()+" você está ideal!\n");
  
     
+}}
+/*
+px[i]=p1;
 }
-
-
-}
-
-
+System.out.println(px[0].getPeso());
+System.out.println(px[1].getPeso());
+ */
 }
 }

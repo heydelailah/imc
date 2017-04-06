@@ -1,4 +1,4 @@
-//simple project created by alexsyfk,docent ana patricia fontes
+//simple project created by alexsyfk,docent Ana patricia M. fontes
 //created on 04/04/17 01:00pm,finished at 7:55pm on 04/05/17
 import java.util.Scanner;
 class peso{

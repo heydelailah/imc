@@ -1,0 +1,17 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = git@github.com:heydelailah/imc.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	
+	url = git@bitbucket.org:koklaink/imc.git
+	url = https://heydelailah@gitlab.com/heydelailah/imc.git
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[user]
+	name = heydelailah
+	email = heydelailah@gmail.com

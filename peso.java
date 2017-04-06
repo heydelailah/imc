@@ -5,11 +5,11 @@ class peso{
 public static void main(String args[]){
 Scanner sc = new Scanner(System.in);
 
-
 System.out.println("informe quantas pessoas na residencia");
 pessoa p1 = new pessoa();
 p1.setQuant_pessoa(sc.nextInt());
-//pessoa px[] = new pessoa[p1.getQuant_pessoa()];
+pessoa px[] = new pessoa[p1.getQuant_pessoa()];
+
 
 
 
@@ -35,12 +35,6 @@ else if(p1.getImc()>25){
 else{
     System.out.println("seu icm é "+p1.getImc()+" você está ideal!\n");
 }
-
-
-    p1.px[i]=p1;
-}
-System.out.println(p1.px[0].getPeso());
-System.out.println(p1.px[1].getPeso());
-
 }
 }
+}//finalizado

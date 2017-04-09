@@ -1,10 +1,10 @@
 class pessoa{
     
-  int quant_pessoa;  
+  int quant_pessoa=getQuant_pessoa();  
     float peso;   
     float altura;
     float imc;
-//pessoa px[] = new pessoa[quant_pessoa];
+//pessoa px[] = new pessoa[20];
 
 
 
